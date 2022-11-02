@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Aide au module</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="Ma vie virtuelle/Mise en place.css">
+    </head>
+    <body>
+        <p><a href="index.html">Accueil de Tomservice</a></p>
+        <h1>Installer pip</h1>
+        <h3>(Windows)Installer pip</h3>
+        <p>
+            <ol>
+                <li>Veuillez désisntaller Python de la même manière qu'un quelquonque autre logiciel</li>
+                <li>Télécharger le setup de Python adapté à votre version de Windows <a href="https://www.python.org/downloads/">ici</a></li>
+                <li>Lors du démarrage du setup (en accoradant les droits d'administrateur) avant de continuer l'installation cocher "Ajouter PythonX.X dans le PATH"(voir image ci-dessous), puis continuer l'installation</li>
+                <img src="PATH.png" alt="Cochez la case Add Python X.X to PATH">
+                <li>Terminer l'installation comme une installation normale</li>
+                <li>Une fois l'installation terminé REDÉMARRER votre ordinateur!</li>
+                <li>pip est opérationnel</li>
+            </ol>
+        </p>
+        <h3>(Linux)Installer pip</h3>
+        <p>
+            <ol>
+                <li>Ouvrez le terminal</li>
+                <li>Entrez <code lang="shell">sudo apt install python3-pip</code> puis validez</li>
+                <li>Entrez votre mot de passe d'utilisateur (durant l'écriture du mot de passe sur Ubuntu, le curseur ne bouge pas pour cacher votre mot de passe)</li>
+                <li>Patientez...</li>
+                <li>pip est installé</li>
+            </ol>
+        <h3>(Mac OS)Installer pip</h3>
+        <p>Nous recherchons volontiers des utilisateurs MAC :)</p>
+        <h3>(Tout système confondus)Installer virtualenv</h3>
+        <p>Virtualenv sert à créer des environnements virtuels Python (et donc inclure les modules Python non-standarts)</p>
+        <p>
+            <ol>
+                <li>Ouvrez l'invite de commande ou le terminal</li>
+                <li>Entré "pip install virtualenv"</li>
+                <li>Virtualenv est installé</li>
+            </ol>
+        </p>
+        <h3>(Tout système confondus)Installer des modules (exemple ici: keyboard)</h3>
+        <p>Installer des modules python avec pip (exemple avec le module keyboard pour Jours Frais)</p>
+        <ol>
+            <li>Ouvrez le terminal ou l'invite de commande (pour ouvrir l'invite de commande, faites Windows+R puis entré cmd.exe et validez)</li>
+            <li>(Sur Windows)Taper <code>pip install keyboard</code> et validez!<br>
+            (Sur Linux) Taper <code>pip3 install keyboard</code> et validez!
+            </li>
+            <li>Keyboard est installé</li>
+        </ol>
+        <p>Pour installer un tout autre module, remplacez <code>keyboard</code> par le nom du module que vous voulez installer!</p>
+    </body>
+</html>
